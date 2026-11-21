@@ -1,0 +1,13 @@
+import time
+time1=time.time()
+print("自纪元以来的秒数:",time1)
+time2=time.ctime()
+print("本地时间:",time2)
+time3=time.localtime()
+print("获取当前时间戳:",time3)
+time4=time.localtime(3156132)
+print("获取指定时间戳:",time4)
+time5=time.gmtime()
+print("当前时间戳的UTC时间:",time5)
+time6=time.asctime()
+print("获取字符串形式的时间:",time6)
